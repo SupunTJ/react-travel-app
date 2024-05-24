@@ -25,10 +25,10 @@
       "daysNeeded": 3
     },
     {
-      "id": "21",
-      "city": "w5j6",
-      "country": "w5jk",
-      "daysNeeded": 1
+      "id": "20",
+      "city": "test",
+      "country": "one",
+      "daysNeeded": 5
     }
   ]
 }
