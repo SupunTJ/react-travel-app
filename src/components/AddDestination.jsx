@@ -10,7 +10,7 @@ function AddDestination() {
   const handleSubmit = (e) => {
     e.preventDefault();
     addDestinationMutation({
-      id: Math.random() * 100,
+      id: (parseInt(Math.random() * 10) + 20).toString(),
       city: newCity,
       country: newCountry,
       daysNeeded: parseInt(Math.random() * 10) + 1,
